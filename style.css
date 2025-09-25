@@ -1,0 +1,182 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(137, 237, 255);
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 120%;
+    color: black;
+}
+
+
+section {
+    background-color: bisque;
+}
+
+
+h1 {
+ 
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+img[alt="Boeing 787"] {
+    width: 750px;
+}
+
+img[src="img/united-states-729.gif"] {
+    width: 300px;
+}
+
+
+body > a > img {
+    width: 150px;
+}
+
+
+blockquote b {
+    font-weight: bold; 
+}
+
+body.playlist {
+    text-align: center;
+    background-color: #e0f7ff;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #222;
+}
+
+body.playlist nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #ffdcae;
+    padding: 10px 0;
+}
+
+body.playlist nav li {
+    margin: 0 15px;
+}
+
+body.playlist nav a {
+    text-decoration: none;
+    font-size: 120%;
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+body.playlist .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+body.playlist aside {
+    background-color: #ff9a9a;
+    width: 20%;
+    padding: 15px;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+body.playlist aside ul li {
+    margin: 10px 0;
+}
+
+body.playlist main {
+    background-color: #80cfff;
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body.playlist main h1 {
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+body.playlist main p {
+    margin-bottom: 20px;
+}
+
+body.playlist main iframe {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+body.playlist main h3 {
+    margin-top: 10px;
+    color: #003366;
+}
+
+footer {
+    background-color: #8400ff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.columna {
+    margin: 10px;
+    width: 200px;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin: 5px 0;
+}
+
+.columna a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.columna a:hover {
+    text-decoration: underline;
+}
+
+.playlist aside iframe {
+    width: 200px;
+    height: 120px;
+    border: none;
+    margin: 10px 0; 
+    display: block; 
+}
+
